@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>872</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>무작위프로그램</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>good.png</normaloff>good.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:rgb(255, 255, 255);
+background-color: rgb(85, 170, 127);
+selection-background-color:rgb(232, 255, 208);
+font: 75 9pt &quot;나눔스퀘어라운드 Bold&quot;;</string>
+  </property>
+  <widget class="QCommandLinkButton" name="commandLinkButton">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>440</y>
+     <width>185</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CommandLinkButton</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_main">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+border-radius: 25px;
+border-style: solid;
+font: 75 8pt &quot;나눔스퀘어라운드 Bold&quot;;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>메인화면</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="maps2">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>100</y>
+     <width>391</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>리스트 띄울곳</string>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="maps1">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>100</y>
+     <width>311</width>
+     <height>361</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>20</y>
+     <width>329</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 12pt &quot;나눔스퀘어라운드 Bold&quot;;
+color:rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>리뷰수</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_2">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>20</y>
+     <width>101</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 12pt &quot;나눔스퀘어라운드 Bold&quot;;
+color:rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>거리</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_3">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>20</y>
+     <width>161</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 12pt &quot;나눔스퀘어라운드 Bold&quot;;
+color:rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>별점</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
